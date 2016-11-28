@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chat="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="ClearAll"
+        chat:showAsAction="collapseActionView"
+        android:id="@+id/clear" />
+    <item android:title="Reset"
+        chat:showAsAction="collapseActionView"
+        android:id="@+id/reset" />
+    <item android:title="Add M"
+        chat:showAsAction="always"
+        android:id="@+id/add" />
+</menu>
